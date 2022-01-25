@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --mode product",
+    "build:test": "vite build --mode test",
+    "serve": "vite preview --port 3001"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "normalize.css": "^8.0.1",
+    "vant": "3.3.5",
+    "vue": "3.2.16",
+    "vue-router": "4.0.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "node-sass": "^6.0.1",
+    "postcss-px-to-viewport": "^1.1.1",
+    "sass": "^1.44.0",
+    "sass-loader": "^12.3.0",
+    "vite": "^2.6.4",
+    "vite-plugin-style-import": "^1.4.0"
+  }
+}
